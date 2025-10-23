@@ -10,6 +10,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@emailjs/browser": "^4.4.1",
     "@fontsource/fira-code": "^5.0.17",
     "@fontsource/inter": "^5.0.17",
     "@fontsource/playfair-display": "^5.0.17",
