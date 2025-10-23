@@ -1,5 +1,6 @@
 import { motion } from 'framer-motion';
 import { useState } from 'react';
+import { Link } from 'react-router-dom';
 import ProjectDetails from './ProjectDetails';
 
 const projects = [
@@ -48,7 +49,7 @@ const ProjectCard = ({ id, title, description, image, metrics, index, onProjectC
         <img 
           src={image} 
           alt={title}
-          className="w-full h-full object-cover object-center"
+          className="w-full h-full object-contain object-center"
         />
       </div>
 
@@ -144,6 +145,25 @@ const CaseStudies = () => {
             />
           ))}
         </div>
+
+        {/* View All Projects Button */}
+        <motion.div
+          initial={{ opacity: 0, y: 20 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.5, delay: 0.2 }}
+          viewport={{ once: true }}
+          className="mt-12 text-center"
+        >
+          <Link
+            to="/projects"
+            className="inline-flex items-center gap-3 border-2 border-electric-teal text-electric-teal font-montserrat font-semibold px-8 py-4 rounded-full hover:bg-electric-teal hover:text-black transition-all duration-300"
+          >
+            View All Projects
+            <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M17 8l4 4m0 0l-4 4m4-4H3" />
+            </svg>
+          </Link>
+        </motion.div>
 
         {/* CTA Button */}
         <motion.div

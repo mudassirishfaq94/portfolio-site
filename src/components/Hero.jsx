@@ -87,7 +87,7 @@ const Hero = () => {
             >
               FULL-STACK
             </motion.h1>
-            <div className="font-fira text-2xl md:text-3xl lg:text-4xl text-electric-teal mb-6 text-left">
+            <div className="font-fira text-xl md:text-2xl lg:text-3xl text-electric-teal mb-6 text-left">
               <TypewriterText text="DEVELOPMENT & WORDPRESS EXPERT" delay={0.8} />
             </div>
             <motion.p 
