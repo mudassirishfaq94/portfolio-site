@@ -25,7 +25,7 @@ const projects = [
       'Faster load times',
       'Enhanced brand presence'
     ],
-    liveSite: 'https://example.com/evc'
+    liveSite: 'https://evcglobal.netlify.app/'
   },
   {
     id: 'medico',
@@ -50,7 +50,7 @@ const projects = [
       'Average consultation time reduced by 25%',
       '4.8/5 user rating'
     ],
-    liveSite: 'https://example.com/medico'
+    liveSite: 'https://medico.mudassirishfaq.com/'
   },
   {
     id: 'capital-constructions',
@@ -75,7 +75,7 @@ const projects = [
       'Improved client communication',
       'Enhanced project visibility'
     ],
-    liveSite: 'https://example.com/capital'
+    liveSite: 'https://capitalconstructions.netlify.app/'
   },
   {
     id: 'linkshort',
@@ -100,7 +100,7 @@ const projects = [
       'Average response time under 100ms',
       'Used by 10,000+ active users'
     ],
-    liveSite: 'https://example.com/linkshort'
+    liveSite: 'https://mylink-short.netlify.app/'
   }
 ];
 
