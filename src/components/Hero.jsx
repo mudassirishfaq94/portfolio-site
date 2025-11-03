@@ -34,9 +34,9 @@ const ParticleBackground = () => {
 
 const ResultsGrid = () => {
   const results = [
-    { number: '30+', label: 'Projects Delivered' },
+    { number: '50+', label: 'Projects Delivered' },
     { number: '100%', label: 'Client Satisfaction' },
-    { number: '50+', label: 'WordPress Sites' },
+    { number: '30+', label: 'WordPress Sites' },
     { number: '24/7', label: 'Support Available' }
   ];
 
