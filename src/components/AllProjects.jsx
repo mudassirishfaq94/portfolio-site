@@ -31,6 +31,13 @@ const projects = [
     description: 'Transformed electric vehicle charging management with an intuitive platform for enhanced accessibility.',
     image: '/evc-compressed.png',
     metrics: '300% Network Growth'
+  },
+  {
+    id: 'notestaker',
+    title: 'Notes Taker',
+    description: 'A simple notes taker web app built with HTML, CSS, and vanilla JavaScript — no frameworks.',
+    image: '/notestaker.png',
+    metrics: 'Vanilla JS'
   }
 ];
 
